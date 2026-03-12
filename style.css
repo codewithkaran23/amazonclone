@@ -315,16 +315,15 @@ FOOTER
 footer{
 margin-top:15px;
 }
-
-.foot-panel1{
-background:#37475a;
+.foot-panel1 a{
 color:white;
-height:40px;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:14px;
-cursor:pointer;
+text-decoration:none;
+display:block;
+width:100%;
+text-align:center;
+}
+.foot-panel1 a:hover{
+color:#ddd;
 }
 
 .foot-panel2{
