@@ -1,343 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Clone</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <header>
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
-            </div>
 
-            <div class="nav-address border">
-                <p class="add-first">Deliver to</p>
-                <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="add-second">India</p>
-                </div>
-            </div>
+<body id="top">
 
-            <div class="nav-search">
-                <select class="search-select">
-                    <option value="">All</option>
+<header>
 
-                </select>
-                <input placeholder="Search Amazon " class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
+<div class="navbar">
 
-            <div class="nav-signin border">
-                <p><span>Hello, Sign in</span></p>
-                <p class="nav-second">Account & Lists</p>
+<div class="nav-logo border">
+<div class="logo"></div>
+</div>
 
-            </div>
+<div class="nav-address border">
+<p class="add-first">Deliver to</p>
+<div class="add-icon">
+<i class="fa-solid fa-location-dot"></i>
+<p class="add-second">India</p>
+</div>
+</div>
 
-            <div class="nav-returns border" >
-                <p><span>Returns</span></p>
-                <p class="nav-second"> & Orders</p>
+<div class="nav-search">
 
-            </div>
+<select class="search-select">
+<option>All</option>
+</select>
 
-            <div class="nav-cart border">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Cart
-            </div>
+<input class="search-input" placeholder="Search Amazon">
 
-         </div>
+<div class="search-icon">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
 
-            <div class="panel">
-                <div class="panel-all ">
-                    <i class="fa-solid fa-bars"></i>
-                    All
-                </div>
+</div>
 
-                <div class="panel-ops ">
-                    <p>Today's Deals</p>
-                    <p>Customer Service</p>
-                    <p>Registry</p>
-                    <p>Gift Cards</p>
-                    <p>Sell</p>
-                </div>
+<div class="nav-signin border">
+<p><span>Hello, Sign in</span></p>
+<p class="nav-second">Account & Lists</p>
+</div>
 
-                <div class="panel-deals border">
-                    Shop deals in Electronics
-                </div>
+<div class="nav-returns border">
+<p><span>Returns</span></p>
+<p class="nav-second">& Orders</p>
+</div>
+
+<div class="nav-cart border">
+<i class="fa-solid fa-cart-shopping"></i>
+Cart
+</div>
+
+</div>
 
 
-            </div>
-    </header>
+<div class="panel">
 
-    <div class="hero-section">
-        <div class="hero-message">
-            You are on amazon.com.  You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a>
-        </div>
-    </div>
+<div class="panel-all">
+<i class="fa-solid fa-bars"></i>
+All
+</div>
 
-    <div class="shop-section">
-        <div class=" box">
-            <div class="box-content">
-                <h2>clothes</h2>
-            <div class="box-img" style="background-image: url('images/box1_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-            
-        </div>
-       <div class="box">
-           <div class="box-content">
-                <h2>Health & Personal Care</h2>
-            <div class="box-img" style="background-image: url('images/box2_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Furniture</h2>
-            <div class="box-img" style="background-image: url('images/box3_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="box-content">
-                <h2>Electronics</h2>
-            <div class="box-img" style="background-image: url('images/box4_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
+<div class="panel-ops">
+<p>Today's Deals</p>
+<p>Customer Service</p>
+<p>Registry</p>
+<p>Gift Cards</p>
+<p>Sell</p>
+</div>
 
-        <div class=" box">
-            <div class="box-content">
-                <h2>Beauty picks</h2>
-            <div class="box-img" style="background-image: url('images/box5_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-            
-        </div>
-       <div class=" box">
-           <div class="box-content">
-                <h2>Pet Care</h2>
-            <div class="box-img" style="background-image: url('images/box6_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
-        <div class= "box">
-            <div class="box-content">
-                <h2>New Arrival in Toys</h2>
-            <div class="box-img" style="background-image: url('images/box7_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Discover Fashion Trends</h2>
-            <div class="box-img" style="background-image: url('images/box8_image.jpg');"></div>
-                <p>See more</p>
-            </div>
-        </div>
+<div class="panel-deals">
+Shop deals in Electronics
+</div>
 
-    </div>
+</div>
+
+</header>
+
+
+<div class="hero-section">
+
+<div class="hero-message">
+
+You are on amazon.com. You can also shop on Amazon India.
+
+<a href="#">Click here to go to amazon.in</a>
+
+</div>
+
+</div>
+
+
+<div class="shop-section">
+
+<div class="box">
+<div class="box-content">
+<h2>Clothes</h2>
+<div class="box-img" style="background-image:url(images/box1_image.jpg)"></div>
+<p>See more</p>
+</div>
+</div>
+
+<div class="box">
+<div class="box-content">
+<h2>Health & Personal Care</h2>
+<div class="box-img" style="background-image:url(images/box2_image.jpg)"></div>
+<p>See more</p>
+</div>
+</div>
+
+<div class="box">
+<div class="box-content">
+<h2>Furniture</h2>
+<div class="box-img" style="background-image:url(images/box3_image.jpg)"></div>
+<p>See more</p>
+</div>
+</div>
+
+<div class="box">
+<div class="box-content">
+<h2>Electronics</h2>
+<div class="box-img" style="background-image:url(images/box4_image.jpg)"></div>
+<p>See more</p>
+</div>
+</div>
+
+</div>
 
 
 <section class="amazon-row">
 
-  <h2>Best Sellers in Home & Kitchen</h2>
+<h2>Best Sellers in Home & Kitchen</h2>
 
-  <div class="row-container">
-    <div class="row-products">
+<div class="row-products">
 
-      <div class="row-item">
-        <img src="images/p1.png" alt="">
-      </div>
+<div class="row-item"><img src="images/p1.png"></div>
+<div class="row-item"><img src="images/p2.png"></div>
+<div class="row-item"><img src="images/p3.png"></div>
+<div class="row-item"><img src="images/p4.png"></div>
+<div class="row-item"><img src="images/p5.png"></div>
+<div class="row-item"><img src="images/p6.png"></div>
+<div class="row-item"><img src="images/p7.png"></div>
 
-      <div class="row-item">
-        <img src="images/p2.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/p3.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/p4.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/p5.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/p6.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/p7.png" alt="">
-      </div>
-
-    </div>
-  </div>
+</div>
 
 </section>
 
 
 
-<!-- <section class="amazon-row">
-
-  <h2>Popular items this season</h2>
-
-  <div class="row-container">
-    <div class="row-products">
-
-      <div class="row-item">
-        <img src="images/s1.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s2.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s3.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s4.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s5.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s6.jpg" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s7.jpg" alt="">
-      </div>
-
-    </div>
-  </div>
-
-</section> -->
-
 <section class="amazon-row">
 
-  <h2>Popular items this season</h2>
+<h2>Popular items this season</h2>
 
-  <div class="slider-wrapper">
+<div class="row-products">
 
-    <!-- Left Arrow -->
-    <!-- <a href="#slide1" class="arrow left">&#10094;</a> -->
+<div class="row-item"><img src="images/s1.png"></div>
+<div class="row-item"><img src="images/s2.png"></div>
+<div class="row-item"><img src="images/s3.png"></div>
+<div class="row-item"><img src="images/s4.png"></div>
+<div class="row-item"><img src="images/s5.png"></div>
+<div class="row-item"><img src="images/s6.png"></div>
+<div class="row-item"><img src="images/s7.png"></div>
 
-    <!-- Slider -->
-    <div class="row-products" id="slide1">
-
-      <div class="row-item">
-        <img src="images/s1.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s2.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s3.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s4.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s5.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s6.png" alt="">
-      </div>
-
-      <div class="row-item">
-        <img src="images/s7.png" alt="">
-      </div>
-
-    </div>
-
-    <!-- Right Arrow -->
-    <a href="#slide1" class="arrow right">&#10095;</a>
-
-  </div>
+</div>
 
 </section>
 
-    <footer>
-        <div class="foot-panel1">
-           <p> Back to Top</p>
-        </div>
-        <div class="foot-panel2">
-           <ul>
-            <p> Get to Know Us</p>
-                <a>Careers</a>
-                <a>Blog</a>
-                <a>About Amazon</a>
-                <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
 
-           </ul>
 
-            <ul>
-            <p>	Make Money with Us</p>
-                <a>Sell products on Amazon</a>
-                <a>Sell on Amazon Business</a>
-                 <a>Sell apps on Amazon</a>
-                <a>Become an Affiliate</a>
-                <a>Advertise Your Products</a>
-                <a>Self-Publish with Us</a>
-                <a>Host an Amazon Hub</a>
-           </ul>
+<footer>
 
-            <ul>
-            <p>Amazon Payment Products</p>
-                <a>Amazon Business Card</a>
-                <a>Shop with Points</a>
-                <a>Reload Your Balance</a>
-                <a>Amazon Currency Converter</a>
-           </ul>
-            
-           <ul>
-            <p>Let Us Help You</p>
-                <a>Amazon and COVID-19</a>
-                <a>Your Account</a>
-                <a>Your Orders</a>
-                <a>Shipping Rates & Policies</a>
-                <a>Returns & Replacements</a>
-                <a>Manage Your Content and Devices</a>
-                <a>Help</a>
-           </ul>
-        </div>
+<div class="foot-panel1">
+<a href="#top">Back to Top</a>
+</div>
 
-        <div class="foot-panel3">
-            <div class="logo">
-            </div>
-        </div>
-        <div class="foot-panel4">
-            <div class="pages">
-                <a>Conditions of Use</a>
-                <a>Privacy Notice</a>
-                <a>Consumer Health Data Privacy Notice</a>
-                <a> Your ads privacy choices</a>
-            </div>
-            <div class="copyright">
-                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
-            </div>
-        </div>
-    </footer>
-    
+<div class="foot-panel2">
+
+<ul>
+<p>Get to Know Us</p>
+<a>Careers</a>
+<a>Blog</a>
+<a>About Amazon</a>
+<a>Investor Relations</a>
+</ul>
+
+<ul>
+<p>Make Money with Us</p>
+<a>Sell products on Amazon</a>
+<a>Sell on Amazon Business</a>
+<a>Become an Affiliate</a>
+</ul>
+
+<ul>
+<p>Amazon Payment Products</p>
+<a>Amazon Business Card</a>
+<a>Shop with Points</a>
+<a>Reload Your Balance</a>
+</ul>
+
+<ul>
+<p>Let Us Help You</p>
+<a>Your Account</a>
+<a>Your Orders</a>
+<a>Shipping Rates</a>
+<a>Help</a>
+</ul>
+
+</div>
+
+
+<div class="foot-panel3">
+<div class="logo"></div>
+</div>
+
+<div class="foot-panel4">
+<p>© Amazon Clone by Karan</p>
+</div>
+
+</footer>
+
 </body>
 </html>
