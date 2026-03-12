@@ -25,6 +25,18 @@ height:50px;
 width:100px;
 }
 
+.nav-left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.nav-right{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
 .logo{
 background-image:url("amazon_logo.png");
 background-size:contain;
@@ -381,6 +393,7 @@ height:260px;
 
 }
 
+
 /* ======================
 MOBILE
 ====================== */
@@ -390,49 +403,59 @@ MOBILE
 /* NAVBAR */
 
 .navbar{
-flex-direction:row;
-flex-wrap:wrap;
 height:auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+align-items:center;
 padding:10px;
 }
 
-/* SEARCH FULL WIDTH */
+/* LOGO */
 
-.nav-search{
-width:100%;
-order:3;
-margin-top:10px;
+.nav-logo{
+width:100px;
 }
 
-/* HIDE EXTRA */
+/* CART RIGHT SIDE */
+
+.nav-cart{
+margin-left:auto;
+display:flex;
+align-items:center;
+}
+
+/* HIDE EXTRA ITEMS */
 
 .nav-address,
 .nav-returns{
 display:none;
 }
 
-/* CART RIGHT */
+/* SEARCH BAR FULL WIDTH */
 
-.nav-cart{
-margin-left:auto;
+.nav-search{
+width:100%;
+margin-top:10px;
+order:3;
 }
 
 /* PANEL */
 
 .panel{
 flex-direction:column;
-align-items:flex-start;
 height:auto;
 padding:10px;
+align-items:flex-start;
 }
 
-/* SCROLLABLE MENU */
+/* PANEL MENU SCROLL */
 
 .panel-ops{
-width:100%;
 display:flex;
-overflow-x:auto;
 gap:15px;
+overflow-x:auto;
+width:100%;
 margin-top:5px;
 }
 
@@ -454,21 +477,15 @@ height:200px;
 .hero-message{
 width:95%;
 font-size:12px;
-padding:6px;
 }
 
 /* BOX */
 
 .box{
 width:90%;
-height:auto;
 }
 
-.box-img{
-height:220px;
-}
-
-/* PRODUCT SLIDER */
+/* PRODUCT ROW */
 
 .row-item{
 min-width:140px;
@@ -479,7 +496,6 @@ height:160px;
 
 .foot-panel2{
 flex-direction:column;
-align-items:center;
 text-align:center;
 gap:20px;
 }
